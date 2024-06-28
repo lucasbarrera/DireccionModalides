@@ -1,0 +1,53 @@
+/* seccion de pestaña principal de educacion especial */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.descripcion {
+  p {
+    text-align: left;
+    font-size: 16px;
+    a {
+      font-size: 16px;
+      color: black;
+    }
+  }
+  .items li {
+    font-size: 16px;
+  }
+}
+
+.tituloPrincipal {
+  margin: 10px 10px 0px;
+  .items {
+    font-size: 20px;
+  }
+}
+
+/* seccion resposiva mayor a 425px */
+@media (width>425px) {
+  .descripcion {
+    p {
+      font-size: 20px;
+      a {
+        font-size: 20px;
+      }
+    }
+    .items li {
+      font-size: 20px;
+    }
+  }
+}
+/* seccion resposiva mayor a 768px */
+@media (width>768px) {
+  .descripcion {
+    p {
+      font-size: 22px;
+      a {
+        font-size: 22px;
+      }
+    }
+    .items li {
+      font-size: 22px;
+    }
+  }
+}

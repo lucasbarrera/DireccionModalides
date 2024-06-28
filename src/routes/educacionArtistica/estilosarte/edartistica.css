@@ -1,0 +1,66 @@
+/* configuraciones generales de la seccion de modalidad artistica */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.artistica {
+  background: linear-gradient(rgb(221, 0, 0), 10%, rgb(255, 255, 255));
+  padding: 5px 5px 0px 5px;
+}
+.contenedorImagenArt {
+  width: 100%;
+}
+.contenedorImagenArt img {
+  width: 100%;
+}
+
+.botonesNavart {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.botonesNavart .btn {
+  background-color: #bbb5b5;
+  border: solid 2px rgb(145, 146, 146);
+  font-size: 14px;
+  transition: all 0.5s;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 140px;
+}
+.btn:hover {
+  opacity: 0.7;
+}
+@media (width > 425px) {
+  .contenedorImagenArt img {
+    width: 100%;
+    height: 300px;
+  }
+  .tituloArtistica {
+    font-size: 26px;
+  }
+  .botonesNavart .btn {
+    font-size: 16px;
+    width: 150px;
+  }
+  .artistica {
+    padding: 10px 10px 0px 10px;
+  }
+}
+
+@media (width > 768px) {
+  .contenedorImagenArt img {
+    width: 100%;
+    height: 400px;
+  }
+  .tituloArtistica {
+    font-size: 30px;
+  }
+  .botonesNavart .btn {
+    font-size: 18px;
+    width: 170px;
+  }
+  .artistica {
+    padding: 20px 20px 0px 20px;
+  }
+}

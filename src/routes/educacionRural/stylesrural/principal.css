@@ -1,0 +1,36 @@
+.titulorural {
+  margin: 5px auto;
+  text-align: left;
+  font-size: 22px;
+}
+.items li {
+  font-size: 16px;
+}
+.descripcion {
+  font-size: 16px;
+  text-align: left;
+}
+@media (width > 425px) {
+  .titulorural {
+    font-size: 26px;
+    margin: 10px auto;
+  }
+  .descripcion {
+    font-size: 18px;
+  }
+  .items li {
+    font-size: 18px;
+  }
+}
+@media (width > 768px) {
+  .titulorural {
+    font-size: 30px;
+    margin: 15px auto;
+  }
+  .descripcion {
+    font-size: 22px;
+  }
+  .items li {
+    font-size: 22px;
+  }
+}

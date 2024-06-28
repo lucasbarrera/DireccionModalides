@@ -1,0 +1,44 @@
+/* seccion de estilos de pestaña nivel secundario de educacion artistica */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.nivelSecundarioArt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.titulosec {
+  margin-top: 10px;
+  font-size: 22px;
+}
+.imgSec {
+  margin: 10px;
+  width: 100%;
+  img {
+    width: 90%;
+  }
+}
+.descripcionsec {
+  margin: 5px;
+  font-size: 18px;
+}
+/* seccion responsive desde 425px hasta 768px */
+@media (width > 425px) {
+  .descripcionsec {
+    font-size: 20px;
+    margin: 10px;
+  }
+  .titulosec {
+    font-size: 26px;
+  }
+}
+/* seccion responsive desde 768px */
+@media (width > 768px) {
+  .descripcionsec {
+    margin: 20px;
+    font-size: 22px;
+  }
+  .titulosec {
+    font-size: 30px;
+  }
+}

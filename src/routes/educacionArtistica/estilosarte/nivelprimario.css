@@ -1,0 +1,46 @@
+/* seccion de estilos de pestaña nivel primario de educacion artistica */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.nivelPrimarioArt {
+  width: 100%;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.imgPrim {
+  width: 100%;
+  img {
+    width: 100%;
+  }
+}
+.tituloPrimario {
+  font-size: 24px;
+}
+.descripcionPrim {
+  margin-top: 10px;
+  font-size: 18px;
+  text-align: left;
+}
+/* seccion responsivamayor a 425px */
+@media (width > 425px) {
+  .tituloPrimario {
+    font-size: 28px;
+  }
+  .descripcionPrim {
+    margin-top: 15px;
+    font-size: 20px;
+    text-align: left;
+  }
+}
+/* seccion resposiva mayor a 768px */
+@media (width > 768px) {
+  .tituloPrimario {
+    font-size: 32px;
+  }
+  .descripcionPrim {
+    margin-top: 15px;
+    font-size: 22px;
+    text-align: left;
+  }
+}

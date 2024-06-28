@@ -1,0 +1,56 @@
+/* seccion de estilos de nivel superior de educacion artistica */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.titulosup {
+  font-size: 22px;
+}
+.contenedorImgIfdac {
+  width: 100%;
+  margin: 10px;
+  height: auto;
+}
+.imagenprofesorado {
+  margin: 10px;
+  width: 90%;
+  height: 300px;
+}
+.titulodesc {
+  font-size: 22px;
+  text-align: center;
+}
+.descripcionsup {
+  margin: 5px;
+  font-size: 18px;
+  text-align: left;
+}
+
+/* seccion resposive desde 425px hasta 768px */
+@media (width > 425px) {
+  .titulosup {
+    font-size: 26px;
+  }
+  .titulodesc {
+    font-size: 26px;
+  }
+  .descripcionsup {
+    margin: 10px;
+    font-size: 20px;
+    text-align: left;
+  }
+}
+/* seccion resposive desde 425px hasta 768px */
+@media (width > 768px) {
+  .titulosup {
+    font-size: 30px;
+  }
+
+  .titulodesc {
+    font-size: 30px;
+  }
+  .descripcionsup {
+    margin: 15px;
+    font-size: 22px;
+    text-align: left;
+  }
+}

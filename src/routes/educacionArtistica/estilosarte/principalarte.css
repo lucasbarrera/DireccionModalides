@@ -1,0 +1,52 @@
+/* seccion de estilos de principal de educacion artistica */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.tituloPrinArt {
+  font-size: 22px;
+  margin: 5px 5px 0px 5px;
+  font-weight: bold;
+}
+.descripcionArtistica {
+  text-align: left;
+  font-size: 16px;
+  a {
+    font-size: 16px;
+  }
+  ul li {
+    font-size: 16px;
+  }
+}
+/* seccion resposiva mayor a 425px */
+@media (width>425px) {
+  .tituloPrinArt {
+    font-size: 24px;
+    margin: 10px 10px 5px;
+  }
+  .descripcionArtistica {
+    text-align: left;
+    font-size: 20px;
+    a {
+      font-size: 20px;
+    }
+    ul li {
+      font-size: 20px;
+    }
+  }
+}
+/* seccion resposiva mayor a 768px */
+@media (width>768px) {
+  .tituloPrinArt {
+    font-size: 30px;
+  }
+  .descripcionArtistica {
+    text-align: left;
+    font-size: 22px;
+    a {
+      font-size: 22px;
+    }
+    ul li {
+      font-size: 22px;
+    }
+  }
+}

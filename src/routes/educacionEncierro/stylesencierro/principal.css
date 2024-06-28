@@ -1,0 +1,48 @@
+/* seccion de estilos de la pestaña principal */
+* {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.encierro {
+  h2 {
+    font-size: 22px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  p {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: left;
+  }
+  a {
+    font-size: 16px;
+  }
+}
+@media (width > 425px) {
+  .encierro {
+    h2 {
+      font-size: 26px;
+    }
+    p {
+      font-size: 18px;
+    }
+    a {
+      font-size: 18px;
+    }
+  }
+}
+@media (width > 768px) {
+  .encierro {
+    h2 {
+      font-size: 30px;
+      margin-top: 15px;
+    }
+    p {
+      font-size: 22px;
+    }
+    a {
+      font-size: 22px;
+    }
+  }
+}
