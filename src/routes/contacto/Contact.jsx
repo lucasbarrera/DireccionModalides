@@ -8,11 +8,11 @@ export const Contact = () => {
           Para comunicarte con la direccion puedes enviar un email a la
           dirección de modalidades.
           <a
-            href="mailto: barreramenemlucas.com"
+            href="mailto: direcciondemodalidadeslarioja@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            direcciondemodalidades@gmail.com
+            direcciondemodalidadeslarioja@gmail.com
           </a>
         </p>
       </div>
