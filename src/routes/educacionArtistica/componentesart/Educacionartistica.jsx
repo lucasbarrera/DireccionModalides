@@ -32,9 +32,9 @@ export const Educacionartistica = () => {
             setGaleria(false);
           }}
         >
-          Principal
+          Normativa
         </button>
-        <button
+        {/* <button
           type="button"
           className="btn  "
           onClick={() => {
@@ -85,7 +85,7 @@ export const Educacionartistica = () => {
           }}
         >
           Galeria
-        </button>
+        </button> */}
       </div>
       {/* 
       muestra de diferente modulos de la pagina 

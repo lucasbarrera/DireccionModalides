@@ -250,11 +250,16 @@ export const Principal = () => {
         <br />
         <p>
           Domicilio: Copiapó Nº 147 - La Rioja / Capital Horarios de Atención al
-          Público: Lunes a Viernes de 08:00 hs. a 13:00 hs. 13:00 hs. a 15:00
-          hs. 16:00 hs. a 20:00 hs.
+          Público:
+          <br /> Lunes a Viernes de 08:00 hs. a 13:00 hs.
+          <br />
+          13:00 hs. a 15:00 hs.
+          <br /> 16:00 hs. a 20:00 hs.
           <br />
           Horarios de Entrevistas con Padres y/o Tutores de estudiantes con
-          discapacidad: Martes y Jueves de 16:00 hs. a 20:00 hs.
+          discapacidad:
+          <br />
+          Martes y Jueves de 16:00 hs. a 20:00 hs.
         </p>
       </div>
     </div>

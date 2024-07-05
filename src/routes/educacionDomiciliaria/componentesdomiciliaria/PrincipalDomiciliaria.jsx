@@ -64,6 +64,82 @@ export const PrincipalDomiciliaria = () => {
         estudiante. Justamente esto es lo que permite garantizar que no se vea
         interrumpida la trayectoria escolar.
       </p>
+      <table className="table table-success table-striped">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Documentación</th>
+            <th scope="col">Enlace</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">4</th>
+            <td>Ley Provincial de Educacion</td>
+            <td>
+              <a
+                href="http://www.boletinoflarioja.com.ar/pdf/2010/2010-02-05.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button>Ver</button>
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td>Resolución 202/13</td>
+            <td>
+              <a
+                href="https://drive.google.com/file/d/1kRWQBtsD4waXfmqKzWypBOilbGFBz4e5/view"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button>Ver</button>
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td>Resolución 425/22</td>
+            <td>
+              <a
+                href="https://drive.google.com/file/d/1rSl1EzXDQ5-kN19NPzLIVgF_Qc9_yus_/view"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button>Ver</button>
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td> Anexo I Resolución MECyT N°035</td>
+            <td>
+              <a
+                href="https://docs.google.com/document/d/1Sxco4NOogb5JnwK_o60VsLzNu1v5VULM/edit"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button>Ver</button>
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">5</th>
+            <td>Ley Nacional de Educacion N° 26.206</td>
+            <td>
+              <a
+                href="https://drive.google.com/file/d/1efyAw0SN8EzasGU215ewS0wJ3Be0fKdw/view"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button>Ver</button>
+              </a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   );
 };

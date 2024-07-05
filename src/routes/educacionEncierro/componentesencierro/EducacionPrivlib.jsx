@@ -33,7 +33,7 @@ export const EducacionPrivlib = () => {
             setGaleria(false);
           }}
         >
-          Principal
+          Normativa
         </button>
         <button
           type="button"
@@ -46,7 +46,7 @@ export const EducacionPrivlib = () => {
             setGaleria(false);
           }}
         >
-          Nivel Primario
+          Jornada Salud Mental
         </button>
         <button
           type="button"
@@ -59,7 +59,7 @@ export const EducacionPrivlib = () => {
             setGaleria(false);
           }}
         >
-          Nivel Secundario
+          Conciertos y Tallers
         </button>
         <button
           className="btn btn-info"
@@ -72,7 +72,7 @@ export const EducacionPrivlib = () => {
             setGaleria(false);
           }}
         >
-          Nivel Superior
+          Mujer y Diversidad
         </button>
         <button
           type="button"
@@ -85,7 +85,7 @@ export const EducacionPrivlib = () => {
             setGaleria(true);
           }}
         >
-          Galeria
+          Aprendemos Juntos
         </button>
       </div>
       {/* 

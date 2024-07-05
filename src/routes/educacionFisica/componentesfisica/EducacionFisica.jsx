@@ -36,7 +36,7 @@ export const EducacionFisica = () => {
         >
           Principal
         </button>
-        <button
+        {/* <button
           type="button"
           className="btn"
           onClick={() => {
@@ -105,7 +105,7 @@ export const EducacionFisica = () => {
           }}
         >
           Galeria
-        </button>
+        </button> */}
       </div>
       {/* 
       muestra de diferente modulos de la pagina 

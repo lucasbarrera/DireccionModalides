@@ -31,7 +31,7 @@ export const EducacionBilingue = () => {
             setGaleria(false);
           }}
         >
-          Principal
+          Normativa
         </button>
         <button
           type="button"
@@ -44,9 +44,9 @@ export const EducacionBilingue = () => {
             setGaleria(false);
           }}
         >
-          Nivel Primario
+          Material Didactico
         </button>
-        <button
+        {/* <button
           type="button"
           className="btn"
           onClick={() => {
@@ -71,7 +71,7 @@ export const EducacionBilingue = () => {
           }}
         >
           Nivel Superior
-        </button>
+        </button> */}
         <button
           type="button"
           className="btn"

@@ -6,93 +6,45 @@ export const Galeria = () => {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img
-              src="./src/assets/imagesDomhos/dom/01.jpg"
-              className="d-block  imgcarousel"
-              alt="..."
+              src="./src/assets/imagesDomhos/jornadaalfa.jpg"
+              className="d-block"
+              alt="Jornada de alfabetizacion Hospital M y N"
             />
+            <p>Jornada de alfabetizacion Hospital M y N</p>
           </div>
-          <div className="carousel-item">
+          <div className="carousel-item ">
             <img
-              src="./src/assets/imagesDomhos/dom/02.jpg"
-              className="d-block  imgcarousel"
-              alt="..."
+              src="./src/assets/imagesDomhos/jornadaalfa1.jpg"
+              className="d-block"
+              alt="Jornada de alfabetizacion Hospital M y N"
             />
+            <p>Jornada de alfabetizacion Hospital M y N</p>
           </div>
-          <div className="carousel-item">
-            <img
-              src="./src/assets/imagesDomhos/dom/03.jpg"
-              className="d-block  imgcarousel"
-              alt="..."
-            />
-          </div>
-
-          <div className="carousel-item">
-            <img
-              src="./src/assets/imagesDomhos/dom/04.jpg"
-              className="d-block  imgcarousel"
-              alt="..."
-            />
-          </div>
-          <div className="carousel-item">
-            <img
-              src="./src/assets/imagesDomhos/dom/05.jpg"
-              className="d-block  imgcarousel"
-              alt="..."
-            />
-          </div>
-          <div className="carousel-item">
-            <img
-              src="./src/assets/imagesDomhos/dom/06.jpg"
-              className="d-block imgcarousel"
-              alt="..."
-            />
-          </div>
-          <div className="carousel-item">
-            <img
-              src="./src/assets/imagesDomhos/dom/07.jpg"
-              className="imgcarousel d-block "
-              alt="..."
-            />
-          </div>
-          <div className="carousel-item">
-            <img
-              src="./src/assets/imagesDomhos/dom/08.jpg"
-              className="imgcarousel d-block "
-              alt="..."
-            />
-          </div>
-          <div className="carousel-item">
-            <img
-              src="./src/assets/imagesDomhos/dom/09.jpg"
-              className=" imgcarousel d-block "
-              alt="..."
-            />
-          </div>
+          <button
+            className="carousel-control-prev "
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="prev"
+          >
+            <span
+              className="carousel-control-prev-icon "
+              aria-hidden="true"
+            ></span>
+            <span className="visually-hidden">Previous</span>
+          </button>
+          <button
+            className="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="next"
+          >
+            <span
+              className="carousel-control-next-icon "
+              aria-hidden="true"
+            ></span>
+            <span className="visually-hidden">Next</span>
+          </button>
         </div>
-        <button
-          className="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExample"
-          data-bs-slide="prev"
-        >
-          <span
-            className="carousel-control-prev-icon"
-            aria-hidden="true"
-          ></span>
-          <span className="visually-hidden">Previous</span>
-        </button>
-        <button
-          className="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExample"
-          data-bs-slide="next"
-        >
-          <span
-            className="carousel-control-next-icon"
-            aria-hidden="true"
-          ></span>
-          <span className="visually-hidden">Next</span>
-        </button>
       </div>
     </>
   );

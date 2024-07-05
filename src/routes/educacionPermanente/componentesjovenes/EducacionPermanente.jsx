@@ -33,7 +33,7 @@ export const EducacionPermanente = () => {
         >
           Normativa
         </button>
-        <button
+        {/* <button
           type="button"
           className="btn"
           onClick={() => {
@@ -84,7 +84,7 @@ export const EducacionPermanente = () => {
           }}
         >
           Galeria
-        </button>
+        </button> */}
       </div>
       {/* 
       muestra de diferente modulos de la pagina 

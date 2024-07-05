@@ -2,17 +2,34 @@
 * {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
-.tituloPrincipal {
+.titulo {
   font-size: 22px;
 }
-.descripcion {
+.texto {
   text-align: left;
-  padding: 20px;
-  p {
-    font-size: 16px;
-    a {
-      color: black;
-      font-size: 16px;
-    }
+  font-size: 16px;
+}
+
+@media (min-width: 426px) {
+  .titulo {
+    font-size: 26px;
+  }
+  .texto {
+    font-size: 18px;
+  }
+  .lista li {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 769px) {
+  .titulo {
+    font-size: 26px;
+  }
+  .texto {
+    font-size: 22px;
+  }
+  .lista li {
+    font-size: 18px;
   }
 }

@@ -4,7 +4,7 @@ import { Home } from "./routes/home/Home";
 import { Contact } from "./routes/contacto/Contact";
 import { Educacionartistica } from "./routes/educacionArtistica/componentesart/Educacionartistica";
 import { EducacionFisica } from "./routes/educacionFisica/componentesfisica/EducacionFisica";
-import { Noticias } from "./routes/noticias/Noticias";
+// import { Noticias } from "./routes/noticias/Noticias";
 import { EducacionRural } from "./routes/educacionRural/componentesrural/EducacionRural";
 import { EducacionEspecial } from "./routes/educacionEspecial/componentesespecial/EducacionEspecial";
 import { EducacionPermanente } from "./routes/educacionPermanente/componentesjovenes/EducacionPermanente";
@@ -19,7 +19,7 @@ function App() {
       <NavBar />
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
-        <Route path="/noticias" element={<Noticias></Noticias>}></Route>
+        {/* <Route path="/noticias" element={<Noticias></Noticias>}></Route> */}
         <Route
           path="/educacionfisica"
           element={<EducacionFisica></EducacionFisica>}

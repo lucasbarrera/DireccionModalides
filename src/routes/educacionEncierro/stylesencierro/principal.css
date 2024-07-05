@@ -4,13 +4,13 @@
   margin: 0;
   padding: 0;
 }
-.encierro {
+.principal-encierro {
   h2 {
     font-size: 22px;
     text-align: center;
     margin-top: 10px;
   }
-  p {
+  .texto {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 16px;
     text-align: left;
@@ -19,30 +19,41 @@
     font-size: 16px;
   }
 }
-@media (width > 425px) {
-  .encierro {
+.lista li {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 16px;
+  text-align: left;
+}
+@media (min-width: 426px) {
+  .principal-encierro {
     h2 {
       font-size: 26px;
     }
-    p {
+    .texto {
       font-size: 18px;
     }
     a {
       font-size: 18px;
     }
   }
+  .lista li {
+    font-size: 18px;
+  }
 }
 @media (width > 768px) {
-  .encierro {
+  .principal-encierro {
     h2 {
       font-size: 30px;
       margin-top: 15px;
     }
-    p {
+    .texto {
       font-size: 22px;
     }
     a {
       font-size: 22px;
     }
+  }
+  .lista li {
+    font-size: 22px;
   }
 }

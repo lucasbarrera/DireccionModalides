@@ -27,7 +27,7 @@ export const NavBar = () => {
                   Principal
                 </NavLink>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <NavLink
                   to="/noticias"
                   className="nav-link "
@@ -35,7 +35,7 @@ export const NavBar = () => {
                 >
                   Noticias
                 </NavLink>
-              </li>
+              </li> */}
               <li className="nav-item dropdown">
                 <a
                   className="nav-link dropdown-toggle"

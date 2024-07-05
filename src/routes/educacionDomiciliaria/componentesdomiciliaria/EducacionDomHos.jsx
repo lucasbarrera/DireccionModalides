@@ -29,9 +29,9 @@ export const EducacionDomHos = () => {
             setGaleria(false);
           }}
         >
-          Principal
+          Normativa
         </button>
-        <button
+        {/* <button
           type="button"
           className="btn btn-info"
           onClick={() => {
@@ -54,8 +54,7 @@ export const EducacionDomHos = () => {
           }}
         >
           Nivel Secundario
-        </button>
-
+        </button> */}
         <button
           type="button"
           className="btn btn-info"

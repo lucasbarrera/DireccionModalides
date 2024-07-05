@@ -32,7 +32,7 @@ export const EducacionEspecial = () => {
         >
           Principal
         </button>
-        <button
+        {/* <button
           type="button"
           className="btn btn-info"
           onClick={() => {
@@ -83,7 +83,7 @@ export const EducacionEspecial = () => {
           }}
         >
           Galeria
-        </button>
+        </button> */}
       </div>
       {/* 
       muestra de diferente modulos de la pagina 
