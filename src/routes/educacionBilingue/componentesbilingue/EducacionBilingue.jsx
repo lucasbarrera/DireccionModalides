@@ -6,6 +6,7 @@ import { NivelPrimario } from "./NivelPrimario";
 import { NivelSecundario } from "./NivelSecundario";
 import { NivelSuperior } from "./NivelSuperior";
 import { Galeria } from "./Galeria";
+import portadaBilingue from "../../../assets/imgCoordinaciones/coorbilingue.jpeg";
 export const EducacionBilingue = () => {
   const [principal, setPrincipal] = useState(true);
   const [nivelPrimario, setNivelPrimario] = useState(false);
@@ -15,7 +16,7 @@ export const EducacionBilingue = () => {
   return (
     <div className="bilingue">
       <div className="contenedorBilingue">
-        <img src="./src/assets/imgCoordinaciones/coorbilingue.jpeg" alt="" />
+        <img src={portadaBilingue} alt="" />
       </div>
 
       <div className="botonesNav">

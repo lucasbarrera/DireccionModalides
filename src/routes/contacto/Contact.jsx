@@ -1,4 +1,5 @@
 import "./contacto.css";
+import sobre from "../../assets/mail.jpg";
 import { Footer } from "../../components/footer/Footer";
 export const Contact = () => {
   return (
@@ -12,7 +13,10 @@ export const Contact = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            direcciondemodalidadeslarioja@gmail.com
+            <div className="sobre">
+              <img src={sobre} alt="" />
+              direcciondemodalidadeslarioja@gmail.com
+            </div>
           </a>
         </p>
       </div>

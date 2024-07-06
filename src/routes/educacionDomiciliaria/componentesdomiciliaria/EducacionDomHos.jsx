@@ -5,6 +5,7 @@ import { useState } from "react";
 import { NivelPrimario } from "./NivelPrimario";
 import { NivelSecundario } from "./NivelSecundario";
 import { Galeria } from "./Galeria";
+import portadadomiciliaria from "../../../assets/imgCoordinaciones/coordomhos.jpeg";
 
 export const EducacionDomHos = () => {
   const [principal, setPrincipal] = useState(true);
@@ -14,7 +15,7 @@ export const EducacionDomHos = () => {
   return (
     <div className="domiciliaria">
       <div className="contenedorImgDomHos">
-        <img src="./src/assets/imgCoordinaciones/coordomhos.jpeg" alt="" />
+        <img src={portadadomiciliaria} alt="" />
       </div>
 
       <div className="botonesNav">

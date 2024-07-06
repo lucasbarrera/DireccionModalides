@@ -6,6 +6,7 @@ import { NivelSecundario } from "./NivelSecundario";
 import { NivelSuperior } from "./NivelSuperior";
 import { Galeria } from "./Galeria";
 import { useState } from "react";
+import portadaencierro from "../../../assets/imgCoordinaciones/coorcontextencierro.jpeg";
 export const EducacionPrivlib = () => {
   const [principal, setPrincipal] = useState(true);
   const [nivelPrimario, setNivelPrimario] = useState(false);
@@ -15,10 +16,7 @@ export const EducacionPrivlib = () => {
   return (
     <div className="encierro">
       <div className="contenedorImgPriv">
-        <img
-          src="./src/assets/imgCoordinaciones/coorcontextencierro.jpeg"
-          alt=""
-        />
+        <img src={portadaencierro} alt="" />
       </div>
       <div className="botonesNav">
         <button

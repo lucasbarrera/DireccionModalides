@@ -1,14 +1,11 @@
 import "./home.css";
 import { Footer } from "../../components/footer/Footer";
+import homeImg from "../../assets/imgCoordinaciones/frente-direccion.jpeg";
 export const Home = () => {
   return (
     <div className="home">
       <div className="contenedorImg">
-        <img
-          className="imagenHome"
-          src="./src/assets/imgCoordinaciones/frente-direccion.jpeg"
-          alt=""
-        />
+        <img className="imagenHome" src={homeImg} alt="" />
       </div>
       <h2 className="home-titulo">
         Encuadre político-educativo de la Dirección General de Modalidades

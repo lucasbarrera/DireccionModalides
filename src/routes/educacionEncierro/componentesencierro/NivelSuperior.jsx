@@ -1,5 +1,5 @@
 import "../stylesencierro/nivelsuperior.css";
-
+import mujerydiversidad from "../../../assets/imagesEncierro/mujer-diversidad.jpg";
 export const NivelSuperior = () => {
   return (
     <div>
@@ -14,7 +14,7 @@ export const NivelSuperior = () => {
         personas y promover su formación integral y desarrollo pleno.
       </p>
       <div className="imagenes">
-        <img src="src/assets/imagesEncierro/mujer-diversidad.jpg" alt="" />
+        <img src={mujerydiversidad} alt="" />
       </div>
     </div>
   );

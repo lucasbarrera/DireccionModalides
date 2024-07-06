@@ -1,5 +1,6 @@
 import "../stylesencierro/galeria.css";
-
+import aprendemosjuntos from "../../../assets/imagesEncierro/aprendemos-juntos.jpg";
+import aprendemosjuntos1 from "../../../assets/imagesEncierro/aprendemos-juntos1.jpg";
 export const Galeria = () => {
   return (
     <div>
@@ -29,12 +30,8 @@ export const Galeria = () => {
         secundario.
       </p>
       <div className="imagenes">
-        <img src="src/assets/imagesEncierro/aprendemos-juntos.jpg" alt="" />
-        <img
-          className="segunda"
-          src="src/assets/imagesEncierro/aprendemos-juntos1.jpg"
-          alt=""
-        />
+        <img src={aprendemosjuntos} alt="" />
+        <img className="segunda" src={aprendemosjuntos1} alt="" />
       </div>
     </div>
   );

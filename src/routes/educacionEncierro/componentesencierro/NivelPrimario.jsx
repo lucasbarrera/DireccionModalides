@@ -1,12 +1,12 @@
 import "../stylesencierro/nivelprimario.css";
-
+import saludmental1 from "../../../assets/imagesEncierro/saludmental.jpg";
+import saludmental2 from "../../../assets/imagesEncierro/saludmental2.jpg";
+import saludmental3 from "../../../assets/imagesEncierro/saludmental3.jpg";
 export const NivelPrimario = () => {
   return (
     <>
       <h2 className="titulo-primario">Salud Mental Alfabetizacion</h2>
       <p className="desarrollo-primario">
-        La Rioja 17 de Mayo de 2024
-        <br />
         En el marco del Plan “Rosario Vera Peñaloza” 2022- 2027, la Coordinadora
         Provincial de la Modalidad de Educación en Contextos de Encierro Lic.
         Fanny Rodríguez junto a la Supervisora de Jóvenes y Adultos Prof. María
@@ -25,9 +25,9 @@ export const NivelPrimario = () => {
         Nos invita a imaginar, a volver a jugar con las palabras y las rimas.
       </p>
       <div className="imagenes-primario">
-        <img src="src/assets/imagesEncierro/saludmental.jpg" alt="" />
-        <img src="src/assets/imagesEncierro/saludmental2.jpg" alt="" />
-        <img src="src/assets/imagesEncierro/saludmental3.jpg" alt="" />
+        <img src={saludmental1} alt="" />
+        <img src={saludmental2} alt="" />
+        <img src={saludmental3} alt="" />
       </div>
     </>
   );

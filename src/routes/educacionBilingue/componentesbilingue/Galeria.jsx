@@ -1,4 +1,10 @@
 import "../stylesbilingue/galeria.css";
+// importacion de imagenes
+import conversatorioISDF from "../../../assets/imagesBilingue/conversatorioISFD.jpg";
+import paseoalfaISDF from "../../../assets/imagesBilingue/paseoalfaISFD.jpg";
+import paseoalfaUPAM from "../../../assets/imagesBilingue/paseoalfaUPAM.jpg";
+import tallerefemeridesISFD from "../../../assets/imagesBilingue/tallerefemeridesISFD.jpeg";
+import trabajolenguakakan from "../../../assets/imagesBilingue/trabajolenguakakan.jpg";
 
 export const Galeria = () => {
   return (
@@ -7,7 +13,7 @@ export const Galeria = () => {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img
-              src="./src/assets/imagesBilingue/conversatorioISFD.jpg"
+              src={conversatorioISDF}
               className="d-block"
               alt="Conversatorio ISFD Pedro Ignacio de Castro Barros"
             />
@@ -15,7 +21,7 @@ export const Galeria = () => {
           </div>
           <div className="carousel-item ">
             <img
-              src="./src/assets/imagesBilingue/paseoalfaISFD.jpg"
+              src={paseoalfaISDF}
               className="d-block"
               alt="Paseo Alfabetizador ISFD Pedro Ignacio de Castro Barros"
             />
@@ -23,7 +29,7 @@ export const Galeria = () => {
           </div>
           <div className="carousel-item ">
             <img
-              src="./src/assets/imagesBilingue/paseoalfaUPAM.jpg"
+              src={paseoalfaUPAM}
               className="d-block"
               alt="Paseo Alfabetizador UPAM"
             />
@@ -31,7 +37,7 @@ export const Galeria = () => {
           </div>
           <div className="carousel-item ">
             <img
-              src="./src/assets/imagesBilingue/tallerefemeridesISFD.jpeg"
+              src={tallerefemeridesISFD}
               className="d-block"
               alt="Taller Efemerides Interculturales ISFD"
             />
@@ -39,7 +45,7 @@ export const Galeria = () => {
           </div>
           <div className="carousel-item ">
             <img
-              src="./src/assets/imagesBilingue/trabajolenguakakan.jpg"
+              src={trabajolenguakakan}
               className="d-block"
               alt="Trabajo en lengua Kakán Esc N°11"
             />

@@ -5,7 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 110vh;
+  height: 95vh;
 }
 .contenedorContacto {
   flex-grow: 1;
@@ -17,6 +17,10 @@
   align-items: center;
   background-color: rgb(243, 183, 109);
   border-radius: 50px;
+  p {
+    word-break: break-all;
+    word-wrap: break-word;
+  }
   a {
     display: flex;
     justify-content: center;
@@ -25,6 +29,12 @@
     width: 40%;
     opacity: 50%;
   }
+}
+.sobre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 p {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;

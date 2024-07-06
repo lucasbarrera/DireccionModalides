@@ -1,4 +1,8 @@
 import "../stylesdomiciliaria/galeria.css";
+// importacion de imagenes
+import jornadaalfa from "../../../assets/imagesDomhos/jornadaalfa.jpg";
+import jornadaalfa1 from "../../../assets/imagesDomhos/jornadaalfa1.jpg";
+
 export const Galeria = () => {
   return (
     <>
@@ -6,7 +10,7 @@ export const Galeria = () => {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img
-              src="./src/assets/imagesDomhos/jornadaalfa.jpg"
+              src={jornadaalfa}
               className="d-block"
               alt="Jornada de alfabetizacion Hospital M y N"
             />
@@ -14,7 +18,7 @@ export const Galeria = () => {
           </div>
           <div className="carousel-item ">
             <img
-              src="./src/assets/imagesDomhos/jornadaalfa1.jpg"
+              src={jornadaalfa1}
               className="d-block"
               alt="Jornada de alfabetizacion Hospital M y N"
             />

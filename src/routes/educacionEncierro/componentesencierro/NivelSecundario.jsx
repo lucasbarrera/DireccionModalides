@@ -1,4 +1,7 @@
 import "../stylesencierro/nivelsecundario.css";
+import talleres from "../../../assets/imagesEncierro/conciertos-talleres.jpg";
+import talleres1 from "../../../assets/imagesEncierro/conciertos-talleres1.jpg";
+import talleres2 from "../../../assets/imagesEncierro/conciertos-talleres2.jpg";
 
 export const NivelSecundario = () => {
   return (
@@ -8,8 +11,6 @@ export const NivelSecundario = () => {
         de Encierro”
       </h2>
       <p className="texto">
-        La Rioja 15 de Mayo de 2024
-        <br />
         Continuando con las acciones por el mes de la Modalidad de Educación en
         Contextos de Encierro, dependiente de la Dirección General de
         Modalidades Educativas, esta mañana en la Unidad Educativa “Centro de
@@ -28,9 +29,9 @@ export const NivelSecundario = () => {
         estudiantes.
       </p>
       <div className="imagenes">
-        <img src="src/assets/imagesEncierro/conciertos-talleres.jpg" alt="" />
-        <img src="src/assets/imagesEncierro/conciertos-talleres1.jpg" alt="" />
-        <img src="src/assets/imagesEncierro/conciertos-talleres2.jpg" alt="" />
+        <img src={talleres} alt="" />
+        <img src={talleres1} alt="" />
+        <img src={talleres2} alt="" />
       </div>
     </div>
   );
