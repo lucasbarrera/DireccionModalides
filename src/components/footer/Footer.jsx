@@ -1,4 +1,7 @@
 import "./footer.css";
+import imgministerioed from "../../assets/imagenministerio.jpg";
+import imgsecges from "../../assets/secGesEdu.jpg";
+import imggob from "../../assets/imgGob.jpg";
 export const Footer = () => {
   return (
     <>
@@ -9,7 +12,7 @@ export const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src="./src/assets/secGesEdu.jpg" alt="" />
+            <img src={imgsecges} alt="" />
           </a>
           <p>Secretaria de Gestion Educativa</p>
         </div>
@@ -19,7 +22,7 @@ export const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src="./src/assets/imgGob.jpg" alt="" />
+            <img src={imggob} alt="" />
           </a>
           <p>Gobierno de la Provincia de La Rioja</p>
         </div>
@@ -29,7 +32,7 @@ export const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src="./src/assets/imagenministerio.jpg" alt="" />
+            <img src={imgministerioed} alt="" />
           </a>
           <p>Ministerio de Educacion </p>
         </div>
