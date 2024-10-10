@@ -8,7 +8,7 @@ export const Footer = () => {
       <div className="contenedorFooter">
         <div className="imagen">
           <a
-            href="https://www.facebook.com/profile.php?id=100064186892813"
+            href="https://www.facebook.com/profile.php?id=61559499565628"
             target="_blank"
             rel="noopener noreferrer"
           >
